@@ -2,11 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.mycompany</groupId>
-<<<<<<< HEAD
-    <artifactId>Proyecto_Pizzeria</artifactId>
-=======
     <artifactId>PROYPIZZERIA</artifactId>
->>>>>>> 45f6978 (Primeras Interfaces)
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
     <repositories>
@@ -22,23 +18,16 @@
             <artifactId>KGradientPanel</artifactId>
             <version>SNAPSHOT</version>
         </dependency>
-<<<<<<< HEAD
-=======
         <dependency>
             <groupId>org.netbeans.external</groupId>
             <artifactId>AbsoluteLayout</artifactId>
             <version>RELEASE180</version>
         </dependency>
->>>>>>> 45f6978 (Primeras Interfaces)
     </dependencies>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>20</maven.compiler.source>
         <maven.compiler.target>20</maven.compiler.target>
-<<<<<<< HEAD
-        <exec.mainClass>com.mycompany.proyecto_pizzeria.Proyecto_Pizzeria</exec.mainClass>
-=======
         <exec.mainClass>com.mycompany.proypizzeria.PROYPIZZERIA</exec.mainClass>
->>>>>>> 45f6978 (Primeras Interfaces)
     </properties>
 </project>

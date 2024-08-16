@@ -1,9 +1,5 @@
-<<<<<<< HEAD
-com\mycompany\proyecto_pizzeria\form$1.class
-com\mycompany\proyecto_pizzeria\Proyecto_Pizzeria.class
-com\mycompany\proyecto_pizzeria\form.class
-=======
 PanelPersonalizado\PanelRound.class
+com\mycompany\proypizzeria\PedidosLocalMesa$1.class
 com\mycompany\proypizzeria\JFrame_Inicio$7.class
 com\mycompany\proypizzeria\JFrame_Login$2.class
 com\mycompany\proypizzeria\JFrame_Inicio.class
@@ -12,10 +8,10 @@ com\mycompany\proypizzeria\JFrame_Inicio$2.class
 com\mycompany\proypizzeria\JFrame_Inicio$5.class
 com\mycompany\proypizzeria\JFrame_Inicio$1.class
 com\mycompany\proypizzeria\JFrame_Login$1.class
+com\mycompany\proypizzeria\PedidosLocalMesa.class
 com\mycompany\proypizzeria\JFrame_Inicio$4.class
 com\mycompany\proypizzeria\JFrame_Login.class
 com\mycompany\proypizzeria\PROYPIZZERIA.class
 com\mycompany\proypizzeria\JFrame_Inicio$3.class
 com\mycompany\proypizzeria\JFrame_Login$4.class
 com\mycompany\proypizzeria\JFrame_Inicio$6.class
->>>>>>> 45f6978 (Primeras Interfaces)
