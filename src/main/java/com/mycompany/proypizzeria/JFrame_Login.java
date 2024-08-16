@@ -146,6 +146,20 @@ public class JFrame_Login extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
+  
+        String usuario = txtUsuario.getText();
+        String contraseña = new String(txtContraseña.getPassword());
+        if (usuario.isEmpty() || contraseña.isEmpty()) {  
+            JOptionPane.showMessageDialog(this, "Por favor, complete todos los campos", "Error", JOptionPane.ERROR_MESSAGE);
+        } else {
+            if (verificarCredenciales(usuario, contraseña)) {
+                JOptionPane.showMessageDialog(this, "Ingreso exitoso", "Bienvenido", JOptionPane.INFORMATION_MESSAGE);
+            } else {
+                JOptionPane.showMessageDialog(this, "Usuario o contraseña incorrectos", "Error", JOptionPane.ERROR_MESSAGE);
+            }
+        }
+
+        
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void txtUsuarioMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_txtUsuarioMouseClicked
