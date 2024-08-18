@@ -1,13 +1,15 @@
 
 package com.mycompany.proypizzeria;
 
-import java.awt.Insets;
+import javax.swing.JOptionPane;
 
 public class JFrame_Login extends javax.swing.JFrame {
 
     public JFrame_Login() {
         initComponents();
-        this.setLocationRelativeTo(null);   
+        this.setLocationRelativeTo(null); //alinear al centro
+         this.setExtendedState(JFrame_Login.MAXIMIZED_BOTH);//comenzar al maximo pantalla
+        
     }
     
 
@@ -55,19 +57,6 @@ public class JFrame_Login extends javax.swing.JFrame {
         txtUsuario.setForeground(new java.awt.Color(255, 255, 255));
         txtUsuario.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(254, 147, 21), 2));
         txtUsuario.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
-        txtUsuario.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                txtUsuarioMouseClicked(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                txtUsuarioMouseExited(evt);
-            }
-        });
-        txtUsuario.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtUsuarioActionPerformed(evt);
-            }
-        });
 
         txtContraseña.setBackground(new java.awt.Color(119, 119, 119));
         txtContraseña.setForeground(new java.awt.Color(255, 255, 255));
@@ -136,23 +125,18 @@ public class JFrame_Login extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void txtUsuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtUsuarioActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtUsuarioActionPerformed
-
-    private void txtUsuarioMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_txtUsuarioMouseExited
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtUsuarioMouseExited
-
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
+   
+       if(txtUsuario.getText().equals("usuario") && txtContraseña.getText().equals("123")){   
+               JFrame_Inicio inicio=new JFrame_Inicio();
+               inicio.setVisible(true);
+               this.dispose();
+           }else{ 
+                 JOptionPane.showMessageDialog(rootPane,"USUARIO Y/O CONTRASEÑA INCORRECTOS");  
+            }
+      
+        
     }//GEN-LAST:event_jButton1ActionPerformed
-
-    private void txtUsuarioMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_txtUsuarioMouseClicked
-        // TODO add your handling code here:
-        
-        
-    }//GEN-LAST:event_txtUsuarioMouseClicked
 
     /**
      * @param args the command line arguments
