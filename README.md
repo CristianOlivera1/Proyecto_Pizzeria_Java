@@ -53,7 +53,7 @@ Vista inicial del sistema después de iniciar sesión, que proporciona acceso a 
 ![Menu](Documentacion/Diseño_UI_Java/2.-Menu_principal.png)
 
 ### 📦 Registro de Productos
-Formulario para añadir nuevos productos al inventario, incluyendo campos para nombre, descripción, precio y categoría.
+Formulario para añadir nuevos productos al inventario, incluyendo campos para nombre y precio.
 ![RegistroProductos](Documentacion/Diseño_UI_Java/3.-Registro_Productos.png)
 
 ### 🏠 Registro de Salas
@@ -76,7 +76,7 @@ Pantalla para añadir platos al pedido según la mesa seleccionada, mostrando el
 Registro de todos los pedidos realizados, mostrando detalles como fecha, hora, mesa y estado del pedido.
 ![Historial](Documentacion/Diseño_UI_Java/8.-Visualizar_en_historial_pedido.png)
 ### 💵 Finalizar Pedido
-Interfaz para procesar el pago y cerrar el pedido, incluyendo la revisión del pedido, aplicación de descuentos y finalización de la transacción.
+Interfaz para procesar el pago y cerrar el pedido, incluyendo la revisión del pedido y finalización de la transacción.
 ![FinalizarPedido](Documentacion/Diseño_UI_Java/9.-Finalizar_pedido.png)
 
 ## 🛠️ Tecnologías Utilizadas
@@ -88,10 +88,10 @@ Interfaz para procesar el pago y cerrar el pedido, incluyendo la revisión del p
 
 ## 👥 Colaboradores
 
-- **Cristian Olivera Chávez** - Desarrolador Principal
+- **Cristian Olivera Chávez** - Desarrollador Principal
 - **Giovanni TTito Ccaccasto** - Desarrollador
 - **Yhury Cristiam Anampa Quispe** - Tester
-- **Amílcar Virto Loayza** - Documentación
+- **Amílcar Virto Loayza** - Dueño
 - **Luis Fernando Juarez Peña** - Desarrollador (UI/UX)
 
 ## 💡 Agradecimientos
